@@ -11,6 +11,7 @@ import Shivansh from "../../../Public/Shivansh.jpg";
 import Ayush from "../../../Public/Ayush.jpg";
 import Manisha from "../../../Public/Manisha.jpg";
 import Sooraj from "../../../Public/Sooraj.jpg";
+import Avinash from "../../../Public/Avinash.jpg";
 import Heading from "../../components/Heading/Heading";
 
 const Members = () => {
@@ -30,16 +31,13 @@ const Members = () => {
           name="Kanak"
           post="Member"
           // img={Kanak}
-          img={"https://i.pinimg.com/736x/2c/f5/58/2cf558ab8c1f12b43f7326945672805e.jpg"}
+          img={
+            "https://i.pinimg.com/736x/2c/f5/58/2cf558ab8c1f12b43f7326945672805e.jpg"
+          }
         />
         <Member name="Anurag" post="Member" img={Anurag} />
         <Member name="Shivansh" post="Member" img={Shivansh} />
-        <Member
-          name="Avinash"
-          post="Member"
-          // img={Avinash}
-          img={"https://i.pinimg.com/736x/2c/f5/58/2cf558ab8c1f12b43f7326945672805e.jpg"}
-        />
+        <Member name="Avinash" post="Member" img={Avinash} />
         <Member name="Sooraj" post="Member" img={Sooraj} />
       </div>
     </div>
